@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import wave
 import struct
+from scipy import signal
 
 frame_rate = 48000.0
  
@@ -44,3 +45,22 @@ plt.xlim(0,16000)
 plt.subplots_adjust(hspace = 1)
 plt.xlabel("Frequency (Hz)")
 plt.show()
+
+freqs, times, spectrogram = signal.spectrogram(data)
+
+plt.figure(figsize=(5, 4))
+plt.imshow(spectrogram, aspect='auto', cmap='hot_r', origin='lower')
+plt.title('Spectrogram')
+plt.ylabel('Frequency band')
+plt.xlabel('Time window')
+plt.tight_layout()
+
+
+freqs, psd = signal.welch(data)
+
+plt.figure(figsize=(5, 4))
+plt.semilogx(freqs, psd)
+plt.title('PSD: power spectral density')
+plt.xlabel('Frequency')
+plt.ylabel('Power')
+plt.tight_layout()
