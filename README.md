@@ -45,7 +45,7 @@ Output:
 ![alt text](https://github.com/martinezg1/MiniProject3/blob/master/chirp_output_2.PNG)
 
 
-Conclusion:
+# Conclusion
 
 Python is a powerful tool. Not only is python useful for developing software, it has many applications in engineering fields. As demonstrated in this report, python is capable of digital signal processing. Due to python being a high level programing language, the learning curve for programing DSP scripts and applications is much lower compared other programing language. However, there are some other programs that can also handle DSP analysis like MATLAB. If a beginner wants to study DSP, python is a better choice due to it being free and has a plethora of resources to get started since MATLAB requires a licence to use. 
 
