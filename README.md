@@ -27,11 +27,11 @@ Output:
 
 For our semester project, we were working with the Chirp api. This api allows a audio signal of varying frequencies to be transmitted and received by other devices that contain the api. Analysis is similar to the previous example, but the audio file is a chirp file which is labeled as 16 kHz maximum frequency. Applying the same script as the last one.
 
-![alt text](https://github.com/martinezg1/MiniProject3/blob/master/script_matplotlib_output.PNG)
-![alt text](https://github.com/martinezg1/MiniProject3/blob/master/script_matplotlib_output.PNG)
-![alt text](https://github.com/martinezg1/MiniProject3/blob/master/script_matplotlib_output.PNG)
+![alt text](https://github.com/martinezg1/MiniProject3/blob/master/Chirp_sig_script.PNG)
+![alt text](https://github.com/martinezg1/MiniProject3/blob/master/2nd_chirp_script.PNG)
+![alt text](https://github.com/martinezg1/MiniProject3/blob/master/chirp_output_1.PNG)
 
-![alt text](https://github.com/martinezg1/MiniProject3/blob/master/script_matplotlib_output.PNG)
+![alt text](https://github.com/martinezg1/MiniProject3/blob/master/chirp_output_2.PNG)
 
 
 
