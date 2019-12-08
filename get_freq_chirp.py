@@ -6,7 +6,7 @@ from scipy import signal
 
 frame_rate = 48000.0
  
-infile = "chirp_16khz_mono_2.wav"
+infile = "2a64ff.wav"
  
 num_samples = 48000
  
