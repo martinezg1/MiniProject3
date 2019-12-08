@@ -23,6 +23,10 @@ Output:
 
 ![alt text](https://github.com/martinezg1/MiniProject3/blob/master/script_matplotlib_output.PNG)
 
+# Analyzing frequency domain of a Chirp signal
+
+For our semester project, we were working with the Chirp api. This api allows a audio signal of varying frequencies to be transmitted and received by other devices that contain the api. 
+
 
 
 
